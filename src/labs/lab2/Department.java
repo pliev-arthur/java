@@ -7,6 +7,8 @@ public class Department {
     private Employee boss;
     private ArrayList<Employee> employees;
 
+
+
     public Department(String name) {
         this.name = name;
         employees = new ArrayList<>();
@@ -28,14 +30,18 @@ public class Department {
         return boss;
     }
     public void setBoss(Employee boss) {
-        if ((this.boss != null)) {
-            throw new IllegalStateException ("Ошибка! Начальник уже существует!");
-        }
         this.boss = boss;
         if (employees.contains(boss)) {
             return;
         }
         employees.add(boss);
+    }
+    public ArrayList<Employee> getEmployees() {
+        return employees;
+    }
+
+    public void setEmployees(ArrayList<Employee> employees) {
+        this.employees = employees;
     }
 
     public void addNewEmployee(Employee employee) {
@@ -52,6 +58,9 @@ public class Department {
     }
     @Override
     public String toString() {
-        return name;
+        if (boss != null) {
+            return "отдел " + name + ", начальник которого " + boss.getName();
+        }
+        return "отдел " + name;
     }
 }

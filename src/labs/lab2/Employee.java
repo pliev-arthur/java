@@ -27,9 +27,15 @@ public class Employee {
 
     @Override
     public String toString() {
-        if (department.getBoss().getName() == name) {
-            return name + " начальник отдела " + department;
+        if ((department != null) && (department.getBoss().getName() == name)) {
+            return name + " начальник отдела " + department.getName();
         }
-        return name + " работает в отделе " + department + ", начальник которого " + department.getBoss().getName();
+        if ((department != null) && (department.getBoss() != null)){
+            return name + " работает в отделе " + department.getName() + ", начальник которого " + department.getBoss().getName();
+        }
+        if (department != null) {
+            return name + " работает в отделе " + department.getName();
+        }
+        return name;
     }
 }
