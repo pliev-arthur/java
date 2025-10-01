@@ -139,12 +139,12 @@ Time имеет стандартный геттер и сеттер для `seco
 ## Класс Employee (задания 2.4, 3.4)
 
 ### Поля класса Employee
-Name имеет 2 поля:  
+Employee имеет 2 поля:  
 - `private String name` - имя
 - `private Department department` - отдел типа Departmnet (описан ниже)
 
 ### Конструкторы
-Name имеет 3 конструктора:
+Employee имеет 2 конструктора:
 - `public Employee(String name)` - создает Employee только с заданным именем
 - `public Employee(String name, Department department)` - создает Employee c заданным именем и отделом (Важно! Обязательно добавить сотрудника в отдел функцией `addNewEmployee()` из класса Department)
 
