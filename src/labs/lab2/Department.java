@@ -11,6 +11,7 @@ public class Department {
 
     public Department(String name) {
         this.name = name;
+        this.boss = null;
         employees = new ArrayList<>();
     }
     public Department(String name, Employee boss) {
@@ -35,13 +36,6 @@ public class Department {
             return;
         }
         employees.add(boss);
-    }
-    public ArrayList<Employee> getEmployees() {
-        return employees;
-    }
-
-    public void setEmployees(ArrayList<Employee> employees) {
-        this.employees = employees;
     }
 
     public void addNewEmployee(Employee employee) {

@@ -8,10 +8,13 @@ public class Name {
 
     public Name(String firstName) {
         this.firstName = firstName;
+        this.lastName = null;
+        this.patronymic = null;
     }
     public Name( String lastName, String firstName) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.patronymic = null;
     }
     public Name(String lastName, String firstName, String patronymic) {
         this.firstName = firstName;

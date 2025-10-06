@@ -176,7 +176,7 @@ public class Lab1 {
     }
 
     //Task1_1
-    private double fraction (double x) {
+    public double fraction (double x) {
         return x % 1;
     }
     private void runTask1_1() {
@@ -185,7 +185,7 @@ public class Lab1 {
     }
 
     //Task1_3
-    private int charToNum (char x) {
+    public int charToNum (char x) {
         return (x - '0');
     }
     private void runTask1_3() {
@@ -194,7 +194,7 @@ public class Lab1 {
     }
 
     //Task1_5
-    private boolean is2Digit(int x) {
+    public boolean is2Digit(int x) {
         return ((x >= 10) && (x <= 99));
     }
     private void runTask1_5() {
@@ -203,7 +203,7 @@ public class Lab1 {
     }
 
     //Task1_7
-    private boolean isInRange (int a, int b, int num) {
+    public boolean isInRange (int a, int b, int num) {
         if (a >= b) {
             return ((num >= b) && (num <= a));
         }
@@ -224,7 +224,7 @@ public class Lab1 {
     }
 
     //Task1_9
-    private boolean isEqual (int a, int b, int c) {
+    public boolean isEqual (int a, int b, int c) {
         return (a == b) && (b == c);
     }
     private void runTask1_9() {
@@ -239,7 +239,7 @@ public class Lab1 {
     }
 
     //Task2_1
-    private int abs(int x) {
+    public int abs(int x) {
         if (x < 0) {
             return -x;
         }
@@ -253,7 +253,7 @@ public class Lab1 {
     }
 
     //Task2_3
-    private boolean is35(int x) {
+    public boolean is35(int x) {
         if ((x % 3 == 0) && (x % 5 == 0)) {
             return false;
         }
@@ -267,7 +267,7 @@ public class Lab1 {
     }
 
     //Task2_5
-    private int max3(int x, int y, int z) {
+    public int max3(int x, int y, int z) {
         int max;
         if (x > y) {
             max = x;
@@ -292,7 +292,7 @@ public class Lab1 {
     }
 
     //Task2_7
-    private int sum2(int x, int y) {
+    public int sum2(int x, int y) {
         int sum = (x + y);
         if ((sum >= 10) && (sum <= 19)) {
             return 20;
@@ -311,7 +311,7 @@ public class Lab1 {
     }
 
     //Task2_9
-    private String day(int x) {
+    public String day(int x) {
         switch (x) {
             case 1:
                 return "понедельник";
@@ -337,7 +337,7 @@ public class Lab1 {
     }
 
     //Task3_1
-    private String listNums(int x) {
+    public String listNums(int x) {
         String result = "";
         for (int i = 0; i <= x; i++) {
             result += i + " ";
@@ -350,7 +350,7 @@ public class Lab1 {
     }
 
     //Task3_3
-    private String chet(int x) {
+    public String chet(int x) {
         String result = "";
         for (int i = 0; i <= x; i+=2) {
             result += i + " ";
@@ -363,7 +363,7 @@ public class Lab1 {
     }
 
     //Task3_5
-    private int numLen(long x) {
+    public int numLen(long x) {
         int result = 0;
         while (x > 0) {
             x = x / 10;
@@ -377,7 +377,7 @@ public class Lab1 {
     }
 
     //Task3_7
-    private void square(int x) {
+    public void square(int x) {
         for (int i = 0; i < x; i++) {
             for (int j = 0; j < x; j++) {
                 System.out.print("*");
@@ -391,7 +391,7 @@ public class Lab1 {
     }
 
     //Task3_9
-    private void rightTriangle(int x) {
+    public void rightTriangle(int x) {
         for (int i = 1; i <= x; i++) {
             for (int j = x; j > 0; j--) {
                 if (j > i) {
@@ -449,7 +449,7 @@ public class Lab1 {
     }
 
     //Task4_1
-    private int findFirstStatic(int[] arr, int x) {
+    public int findFirstStatic(int[] arr, int x) {
         for (int i = 0; i < n; i++) {
             if (arr[i] == x) {
                 return i;
@@ -457,7 +457,7 @@ public class Lab1 {
         }
         return -1;
     }
-    private int findFirstDynamic(ArrayList<Integer> arr, int x) {
+    public int findFirstDynamic(ArrayList<Integer> arr, int x) {
         for (int i = 0; i < arr.size(); i++) {
             if (arr.get(i) == x) {
                 return i;
@@ -494,7 +494,7 @@ public class Lab1 {
     }
 
     //Task4_3
-    private int maxAbsStatic(int[] arr) {
+    public int maxAbsStatic(int[] arr) {
         int max = abs(arr[0]);
         int result = arr[0];
         for (int i = 1; i < n; i++) {
@@ -505,7 +505,7 @@ public class Lab1 {
         }
         return result;
     }
-    private int maxAbsDynamic(ArrayList<Integer> arr) {
+    public int maxAbsDynamic(ArrayList<Integer> arr) {
         int max = abs(arr.get(0));
         int result = arr.get(0);
         for (int i = 1; i < arr.size(); i++) {
@@ -543,7 +543,7 @@ public class Lab1 {
     }
 
     //Task4_5
-    private int[] addStatic(int[] arr1, int[] arr2, int pos) {
+    public int[] addStatic(int[] arr1, int[] arr2, int pos) {
         int arrRes[] = new int[n+n];
         int k = 0;
         for (int i = 0; i < n+n; i++) {
@@ -560,7 +560,7 @@ public class Lab1 {
         }
         return arrRes;
     }
-    private ArrayList<Integer> addDynamic(ArrayList<Integer> arr1, ArrayList<Integer> arr2, int pos) {
+    public ArrayList<Integer> addDynamic(ArrayList<Integer> arr1, ArrayList<Integer> arr2, int pos) {
         ArrayList<Integer> arrRes = new ArrayList<Integer>();
         int k = 0;
         for (int i = 0; i < arr1.size() + arr2.size(); i++) {
@@ -620,14 +620,14 @@ public class Lab1 {
     }
 
     //Task4_7
-    private int[] reverseBackStatic(int[] arr) {
+    public int[] reverseBackStatic(int[] arr) {
         int arrRes[] = new int[n];
         for (int i = 0; i < n; i++) {
             arrRes[i] = arr[n-1-i];
         }
         return arrRes;
     }
-    private ArrayList<Integer> reverseBackDynamic(ArrayList<Integer> arr) {
+    public ArrayList<Integer> reverseBackDynamic(ArrayList<Integer> arr) {
         ArrayList<Integer> arrRes = new ArrayList<Integer>();
         for (int i = 0; i < arr.size(); i++) {
             arrRes.add(arr.get(arr.size()-1-i));
@@ -663,7 +663,7 @@ public class Lab1 {
     }
 
     //Task4_9
-    private int[] findAllStatic(int[] arr, int x) {
+    public int[] findAllStatic(int[] arr, int x) {
         int cntIndX = 0;
         for (int i = 0; i < n; i++) {
             if (arr[i] == x) {
@@ -680,7 +680,7 @@ public class Lab1 {
         }
         return arrRes;
     }
-    private ArrayList<Integer> findAllDynamic(ArrayList<Integer> arr, int x) {
+    public ArrayList<Integer> findAllDynamic(ArrayList<Integer> arr, int x) {
         ArrayList<Integer> arrRes = new ArrayList<Integer>();
         for (int i = 0; i < arr.size(); i++) {
             if (arr.get(i) == x) {

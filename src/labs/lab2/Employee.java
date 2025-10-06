@@ -6,6 +6,7 @@ public class Employee {
 
     public Employee(String name) {
         this.name = name;
+        this.department = null;
     }
     public Employee(String name, Department department) {
         this.name = name;
