@@ -1,4 +1,7 @@
-package labs.lab2;
+package ru.pliev.labs.lab2;
+
+import ru.pliev.labs.lab2.departmentAndEmpoyee.Department;
+import ru.pliev.labs.lab2.departmentAndEmpoyee.Employee;
 
 import java.util.Locale;
 import java.util.Scanner;

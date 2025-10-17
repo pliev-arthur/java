@@ -1,4 +1,4 @@
-package labs.lab2;
+package ru.pliev.labs.lab2;
 
 public class Name {
 

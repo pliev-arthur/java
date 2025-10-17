@@ -1,4 +1,4 @@
-package labs.lab1;
+package ru.pliev.labs.lab1;
 
 import java.util.ArrayList;
 import java.util.Locale;

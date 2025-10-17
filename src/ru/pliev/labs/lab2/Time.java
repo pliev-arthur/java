@@ -1,4 +1,4 @@
-package labs.lab2;
+package ru.pliev.labs.lab2;
 
 public class Time {
     private int seconds;
@@ -7,6 +7,9 @@ public class Time {
         if (seconds < 0) {
             throw new IllegalArgumentException("Ошибка! Время не может быть отрицательным!");
         }
+        while (seconds >= 24 * 3600) {
+            seconds -= 24 * 3600;
+        }
         this.seconds = seconds;
     }
     public Time(int hours,int minutes, int seconds) {
@@ -14,6 +17,9 @@ public class Time {
             throw new IllegalArgumentException("Ошибка! Время не может быть отрицательным!");
         }
         seconds += minutes * 60 + hours * 3600;
+        while (seconds >= 24 * 3600) {
+            seconds -= 24 * 3600;
+        }
         this.seconds = seconds;
     }
 
@@ -21,6 +27,12 @@ public class Time {
         return seconds;
     }
     public void setSeconds(int seconds) {
+        if (seconds < 0) {
+            throw new IllegalArgumentException("Ошибка! Время не может быть отрицательным!");
+        }
+        while (seconds >= 24 * 3600) {
+            seconds -= 24 * 3600;
+        }
         this.seconds = seconds;
     }
     public int getСurrentHours() {
@@ -37,9 +49,6 @@ public class Time {
         int _seconds = getCurrentSeconds();
         int _hours = getСurrentHours();
         int _minutes =  getCurrentMinutes();
-        while (_hours >= 24) {
-            _hours -= 24;
-        }
         return _hours + ":" + _minutes + ":" + _seconds;
     }
 }

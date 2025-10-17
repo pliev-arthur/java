@@ -1,13 +1,11 @@
-package labs.lab2;
+package ru.pliev.labs.lab2.departmentAndEmpoyee;
 
 import java.util.ArrayList;
 
 public class Department {
-    private String name;
-    private Employee boss;
-    private ArrayList<Employee> employees;
-
-
+    String name;
+    Employee boss;
+    ArrayList<Employee> employees;
 
     public Department(String name) {
         this.name = name;

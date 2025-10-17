@@ -1,8 +1,8 @@
-package labs.lab2;
+package ru.pliev.labs.lab2.departmentAndEmpoyee;
 
 public class Employee {
-    private String name;
-    private Department department;
+    String name;
+    Department department;
 
     public Employee(String name) {
         this.name = name;
