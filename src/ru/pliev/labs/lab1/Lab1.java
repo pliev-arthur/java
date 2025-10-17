@@ -195,7 +195,7 @@ public class Lab1 {
 
     //Task1_5
     public boolean is2Digit(int x) {
-        return ((x >= 10) && (x <= 99));
+        return (((x >= 10) && (x <= 99)) || ((x <= -10) && (x >= -99)));
     }
     private void runTask1_5() {
         int input = inputInt();
