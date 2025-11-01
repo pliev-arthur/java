@@ -271,8 +271,7 @@ public class Lab1 {
         int max;
         if (x > y) {
             max = x;
-        }
-        else {
+        } else {
             max = y;
         }
         if (max < z) {
@@ -296,8 +295,7 @@ public class Lab1 {
         int sum = (x + y);
         if ((sum >= 10) && (sum <= 19)) {
             return 20;
-        }
-        else {
+        } else {
             return sum;
         }
     }

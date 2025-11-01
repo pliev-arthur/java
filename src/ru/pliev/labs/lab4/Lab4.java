@@ -2,7 +2,10 @@ package ru.pliev.labs.lab4;
 
 import ru.pliev.labs.lab3.points.Point2D;
 import ru.pliev.labs.lab3.points.Point3D;
+import ru.pliev.labs.lab4.functionsToList.ApplyFunctionToList;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -76,6 +79,11 @@ public class Lab4 {
         Box<? super Point2D> box2 = new Box<>(point2);
         putPointInBox(box1);
         putPointInBox(box2);
+    }
+    public void runTask3_1() {
+        List<String> arr1 = List.of("kdfsa", "fsd", "e");
+        ApplyFunctionToList f;
+        //f.applyFunctionToArray(arr1, functi)
     }
 
 }
