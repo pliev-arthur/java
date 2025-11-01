@@ -2,9 +2,13 @@ package ru.pliev.labs.lab4;
 
 import ru.pliev.labs.lab3.points.Point2D;
 import ru.pliev.labs.lab3.points.Point3D;
-import ru.pliev.labs.lab4.functionsToList.ApplyFunctionToList;
+import ru.pliev.labs.lab4.filters.LengthFilter;
+import ru.pliev.labs.lab4.filters.PositiveArrayFilter;
+import ru.pliev.labs.lab4.filters.PositiveFilter;
+import ru.pliev.labs.lab4.functions.Abs;
+import ru.pliev.labs.lab4.functions.MaxFromList;
+import ru.pliev.labs.lab4.functions.StringLength;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
@@ -31,6 +35,12 @@ public class Lab4 {
                     break;
                 case "2.3":
                     runTask2_3();
+                    break;
+                case "3.1":
+                    runTask3_1();
+                    break;
+                case "3.2":
+                    runTask3_2();
                     break;
                 default:
                     System.out.println("Такой задачи нет!");
@@ -81,9 +91,20 @@ public class Lab4 {
         putPointInBox(box2);
     }
     public void runTask3_1() {
-        List<String> arr1 = List.of("kdfsa", "fsd", "e");
-        ApplyFunctionToList f;
-        //f.applyFunctionToArray(arr1, functi)
+        List<String> arr1 = List.of("qwerty", "asdfg", "zx");
+        List<Integer> arr2 = List.of(1, -3, 7);
+        List<int[]> arr3 = List.of(new int[]{1, 2, 3}, new int[]{1, -2, -34}, new int[]{10, 32, 3});
+        System.out.println(ApplyFunctionToList.applyFunctionToList(arr1, new StringLength()));
+        System.out.println(ApplyFunctionToList.applyFunctionToList(arr2, new Abs()));
+        System.out.println(ApplyFunctionToList.applyFunctionToList(arr3, new MaxFromList()));
+    }
+    public void runTask3_2() {
+        List<String> arr1 = List.of("qwerty", "asdfg", "zx");
+        List<Integer> arr2 = List.of(1, -3, 7);
+        List<List<Integer>> arr3 = List.of(List.of(10,3,4), List.of(12,5,7), List.of(10,-3,4));
+        System.out.println(FilteringList.filteringList(arr1, new LengthFilter()));
+        System.out.println(FilteringList.filteringList(arr2, new PositiveFilter()));
+        System.out.println(FilteringList.filteringList(arr3, new PositiveArrayFilter()));
     }
 
 }
