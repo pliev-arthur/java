@@ -198,7 +198,7 @@ public class Lab1 {
         return (((x >= 10) && (x <= 99)) || ((x <= -10) && (x >= -99)));
     }
     private void runTask1_5() {
-        int input = inputInt();
+        int input = inputInt(); 
         System.out.println(is2Digit(input));
     }
 
