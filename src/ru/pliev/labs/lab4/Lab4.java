@@ -1,17 +1,12 @@
 package ru.pliev.labs.lab4;
 
-import ru.pliev.labs.lab3.points.Point2D;
-import ru.pliev.labs.lab3.points.Point3D;
-import ru.pliev.labs.lab4.filters.LengthFilter;
-import ru.pliev.labs.lab4.filters.PositiveArrayFilter;
-import ru.pliev.labs.lab4.filters.PositiveFilter;
-import ru.pliev.labs.lab4.functions.Abs;
-import ru.pliev.labs.lab4.functions.MaxFromList;
-import ru.pliev.labs.lab4.functions.StringLength;
+import ru.pliev.labs.lab3.points.*;
+import ru.pliev.labs.lab4.collectors.*;
+import ru.pliev.labs.lab4.combiners.*;
+import ru.pliev.labs.lab4.filters.*;
+import ru.pliev.labs.lab4.functions.*;
 
-import java.util.List;
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
 
 public class Lab4 {
     Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
@@ -41,6 +36,12 @@ public class Lab4 {
                     break;
                 case "3.2":
                     runTask3_2();
+                    break;
+                case "3.3":
+                    runTask3_3();
+                    break;
+                case "3.4":
+                    runTask3_4();
                     break;
                 default:
                     System.out.println("Такой задачи нет!");
@@ -106,5 +107,31 @@ public class Lab4 {
         System.out.println(FilteringList.filteringList(arr2, new PositiveFilter()));
         System.out.println(FilteringList.filteringList(arr3, new PositiveArrayFilter()));
     }
+    public void runTask3_3() {
+        List<String> arr1 = List.of("qwerty", "asdfg", "zx");
+        List<Integer> arr2 = List.of(1, -3, 7);
+        List<List<Integer>> arr3 = List.of(List.of(10,3,4), List.of(12,5,7), List.of(10,-3,4));
+        List<List<Integer>> arr4 = null;
+        System.out.println(new StringCombiner().combine(arr1));
+        System.out.println(new IntSumCombiner().combine(arr2));
+        System.out.println(new ArrayCountElementsCombiner().combine(arr3));
+        System.out.println(new ArrayCountElementsCombiner().combine(arr4));
+    }
+    public void runTask3_4() {
+        List<Integer> numbers = List.of(1, -3, 7, -2, 5);
+        Map<String, List<Integer>> partitionedNumbers = NumberPartitioner.partitionNumbers(numbers);
+        System.out.println("1. Положительные и отрицательные числа:");
+        System.out.println("Положительные: " + partitionedNumbers.get("positive"));
+        System.out.println("Отрицательные: " + partitionedNumbers.get("negative"));
 
+        List<String> strings = List.of("qwerty", "asdfg", "zx", "qw");
+        Map<Integer, List<String>> groupedByLength = StringLengthGrouper.groupByLength(strings);
+        System.out.println("\n2. Строки сгруппированные по длине:");
+        groupedByLength.forEach((length, strList) -> System.out.println("Длина " + length + ": " + strList));
+
+        List<String> duplicateStrings = List.of("qwerty", "asdfg", "qwerty", "qw");
+        Set<String> uniqueStrings = UniqueStringCollector.collectUnique(duplicateStrings);
+        System.out.println("\n3. Уникальные строки:");
+        System.out.println(uniqueStrings);
+    }
 }
