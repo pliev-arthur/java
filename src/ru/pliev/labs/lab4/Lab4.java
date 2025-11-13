@@ -119,18 +119,18 @@ public class Lab4 {
     }
     public void runTask3_4() {
         List<Integer> numbers = List.of(1, -3, 7, -2, 5);
-        Map<String, List<Integer>> partitionedNumbers = NumberPartitioner.partitionNumbers(numbers);
+        Map<String, List<Integer>> partitionedNumbers = UltimateCollector.collect(numbers, new NumberPartitioner());
         System.out.println("1. Положительные и отрицательные числа:");
         System.out.println("Положительные: " + partitionedNumbers.get("positive"));
         System.out.println("Отрицательные: " + partitionedNumbers.get("negative"));
 
         List<String> strings = List.of("qwerty", "asdfg", "zx", "qw");
-        Map<Integer, List<String>> groupedByLength = StringLengthGrouper.groupByLength(strings);
+        Map<Integer, List<String>> groupedByLength = UltimateCollector.collect(strings, new StringLengthGrouper());
         System.out.println("\n2. Строки сгруппированные по длине:");
         groupedByLength.forEach((length, strList) -> System.out.println("Длина " + length + ": " + strList));
 
         List<String> duplicateStrings = List.of("qwerty", "asdfg", "qwerty", "qw");
-        Set<String> uniqueStrings = UniqueStringCollector.collectUnique(duplicateStrings);
+        Set<String> uniqueStrings = UltimateCollector.collect(duplicateStrings, new UniqueStringCollector());
         System.out.println("\n3. Уникальные строки:");
         System.out.println(uniqueStrings);
     }
