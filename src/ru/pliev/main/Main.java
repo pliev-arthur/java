@@ -3,6 +3,7 @@ import ru.pliev.labs.lab1.*;
 import ru.pliev.labs.lab2.*;
 import ru.pliev.labs.lab3.*;
 import ru.pliev.labs.lab4.*;
+import ru.pliev.labs.lab5.*;
 
 import static java.lang.Integer.parseInt;
 import static java.lang.Math.pow;
@@ -17,8 +18,8 @@ public class Main {
 //        lab3.run();
 //        Lab2 lab2 =  new Lab2();
 //        lab2.run();
-        Lab4 lab4 = new Lab4();
-        lab4.run();
+        Lab5 lab5 = new Lab5();
+        lab5.run();
     }
     public static double power(String xStr, String yStr) {
         int x = parseInt(xStr);

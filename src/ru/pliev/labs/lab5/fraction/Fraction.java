@@ -1,10 +1,11 @@
-package ru.pliev.labs.lab5;
+package ru.pliev.labs.lab5.fraction;
 
 import java.util.Objects;
 
-public class Fraction {
+public class Fraction implements FractionInterface {
     private int numerator;
     private int denominator;
+    private Double cache = null;
 
     public Fraction(int numerator) {
         this.numerator = numerator;
@@ -17,21 +18,51 @@ public class Fraction {
         if (denominator < 0) {
             this.numerator = -numerator;
             this.denominator = -denominator;
-            reduction();
             return;
         }
         this.denominator = denominator;
         this.numerator = numerator;
-        reduction();
     }
 
-    private void reduction() {
+    public void reduction() {
         int n = this.numerator;
         int d = this.denominator;
         int gcd = findGCD(Math.abs(n), Math.abs(d));
         numerator = n / gcd;
         denominator = d / gcd;
     }
+
+    @Override
+    public double getDoubleValue() {
+        if (cache == null) {
+            cache = (double) numerator / denominator;
+            return cache;
+        }
+        else {
+            return cache;
+        }
+    }
+
+    @Override
+    public void setNumerator(int numerator) {
+        this.numerator = numerator;
+        cache = null;
+    }
+
+    @Override
+    public void setDenominator(int denominator) {
+        if (denominator == 0) {
+            throw new IllegalArgumentException("Ошибка! Знаменатель не может быть равен нулю!");
+        }
+        if (denominator < 0) {
+            numerator = -numerator;
+            this.denominator = -denominator;
+            return;
+        }
+        this.denominator = denominator;
+        cache = null;
+    }
+
     private int findGCD(int a, int b) {
         while (b != 0) {
             int temp = b;
@@ -44,8 +75,8 @@ public class Fraction {
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
-        Fraction fraсtion = (Fraction) o;
-        return numerator == fraсtion.numerator && denominator == fraсtion.denominator;
+        Fraction fraction = (Fraction) o;
+        return numerator == fraction.numerator && denominator == fraction.denominator;
     }
 
     @Override
