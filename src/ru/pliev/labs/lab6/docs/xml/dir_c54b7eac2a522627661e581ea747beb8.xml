@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_c54b7eac2a522627661e581ea747beb8" kind="dir">
+    <compoundname>task1_1</compoundname>
+    <innerfile refid="_invoke_8java">Invoke.java</innerfile>
+    <innerfile refid="_invoke_annotated_methods_8java">InvokeAnnotatedMethods.java</innerfile>
+    <innerfile refid="_purring_cat_8java">PurringCat.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="task1_1/"/>
+  </compounddef>
+</doxygen>

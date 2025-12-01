@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_invoke_annotated_methods" kind="class" language="Java" prot="public">
+    <compoundname>ru::pliev::labs::lab6::task1_1::InvokeAnnotatedMethods</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_invoke_annotated_methods_1a5ab9b1b4bb7256c3641081c1b2468c31" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static&lt; T, A extends Annotation &gt; void</type>
+        <definition>static&lt; T, A extends Annotation &gt; void ru.pliev.labs.lab6.task1_1.InvokeAnnotatedMethods.invoke</definition>
+        <argsstring>(T object, Class&lt; A &gt; annotationClass)</argsstring>
+        <name>invoke</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_1.InvokeAnnotatedMethods.invoke</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>Class&lt; A &gt;</type>
+          <declname>annotationClass</declname>
+        </param>
+        <exceptions> throws Exception </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_1/InvokeAnnotatedMethods.java" line="8" column="28" bodyfile="task1_1/InvokeAnnotatedMethods.java" bodystart="8" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="task1_1/InvokeAnnotatedMethods.java" line="6" column="7" bodyfile="task1_1/InvokeAnnotatedMethods.java" bodystart="6" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_invoke_annotated_methods_1a5ab9b1b4bb7256c3641081c1b2468c31" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_1::InvokeAnnotatedMethods</scope><name>invoke</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

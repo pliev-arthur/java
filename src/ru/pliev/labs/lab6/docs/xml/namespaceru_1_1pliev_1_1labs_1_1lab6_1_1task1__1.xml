@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="namespaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__1" kind="namespace" language="Java">
+    <compoundname>ru::pliev::labs::lab6::task1_1</compoundname>
+    <innerclass refid="interfaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_invoke" prot="public">ru::pliev::labs::lab6::task1_1::Invoke</innerclass>
+    <innerclass refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_invoke_annotated_methods" prot="public">ru::pliev::labs::lab6::task1_1::InvokeAnnotatedMethods</innerclass>
+    <innerclass refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_purring_cat" prot="public">ru::pliev::labs::lab6::task1_1::PurringCat</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="task1_1/Invoke.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

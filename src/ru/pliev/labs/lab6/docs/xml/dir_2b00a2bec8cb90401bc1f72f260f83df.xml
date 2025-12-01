@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_2b00a2bec8cb90401bc1f72f260f83df" kind="dir">
+    <compoundname>task1_3</compoundname>
+    <innerfile refid="_person_8java">Person.java</innerfile>
+    <innerfile refid="_to_string_8java">ToString.java</innerfile>
+    <innerfile refid="_to_string_processor_8java">ToStringProcessor.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="task1_3/"/>
+  </compounddef>
+</doxygen>

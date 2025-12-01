@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6" kind="class" language="Java" prot="public">
+    <compoundname>ru::pliev::labs::lab6::Lab6</compoundname>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a0bb378acca42bb23f408abfa38d02df5" prot="package" static="no" mutable="no">
+        <type>Scanner</type>
+        <definition>Scanner ru.pliev.labs.lab6.Lab6.scanner</definition>
+        <argsstring></argsstring>
+        <name>scanner</name>
+        <qualifiedname>ru.pliev.labs.lab6.Lab6.scanner</qualifiedname>
+        <initializer>= new Scanner(System.in).useLocale(Locale.US)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Lab6.java" line="14" column="13" bodyfile="Lab6.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a213ed2b9423310648e174ce8a848e0cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ru.pliev.labs.lab6.Lab6.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <qualifiedname>ru.pliev.labs.lab6.Lab6.run</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Lab6.java" line="16" column="17" bodyfile="Lab6.java" bodystart="16" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1afc759087c09be6c2400a24b922a3a784" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ru.pliev.labs.lab6.Lab6.runTask1_1</definition>
+        <argsstring>()</argsstring>
+        <name>runTask1_1</name>
+        <qualifiedname>ru.pliev.labs.lab6.Lab6.runTask1_1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Lab6.java" line="46" column="17" bodyfile="Lab6.java" bodystart="46" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a5bdcf66b5dacb6076fd2061de93f06f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ru.pliev.labs.lab6.Lab6.runTask1_2</definition>
+        <argsstring>()</argsstring>
+        <name>runTask1_2</name>
+        <qualifiedname>ru.pliev.labs.lab6.Lab6.runTask1_2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Lab6.java" line="56" column="17" bodyfile="Lab6.java" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a3325e4a3ea90fdcb6fa13056695e44c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ru.pliev.labs.lab6.Lab6.runTask1_3</definition>
+        <argsstring>()</argsstring>
+        <name>runTask1_3</name>
+        <qualifiedname>ru.pliev.labs.lab6.Lab6.runTask1_3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Lab6.java" line="62" column="17" bodyfile="Lab6.java" bodystart="62" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a2dfb032d67fbdf624f9e603ed121f5ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ru.pliev.labs.lab6.Lab6.runTask1_4</definition>
+        <argsstring>()</argsstring>
+        <name>runTask1_4</name>
+        <qualifiedname>ru.pliev.labs.lab6.Lab6.runTask1_4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Lab6.java" line="71" column="17" bodyfile="Lab6.java" bodystart="71" bodyend="73"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Lab6.java" line="13" column="7" bodyfile="Lab6.java" bodystart="13" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a213ed2b9423310648e174ce8a848e0cb" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::Lab6</scope><name>run</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1afc759087c09be6c2400a24b922a3a784" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::Lab6</scope><name>runTask1_1</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a5bdcf66b5dacb6076fd2061de93f06f2" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::Lab6</scope><name>runTask1_2</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a3325e4a3ea90fdcb6fa13056695e44c0" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::Lab6</scope><name>runTask1_3</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a2dfb032d67fbdf624f9e603ed121f5ba" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::Lab6</scope><name>runTask1_4</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a0bb378acca42bb23f408abfa38d02df5" prot="package" virt="non-virtual"><scope>ru::pliev::labs::lab6::Lab6</scope><name>scanner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

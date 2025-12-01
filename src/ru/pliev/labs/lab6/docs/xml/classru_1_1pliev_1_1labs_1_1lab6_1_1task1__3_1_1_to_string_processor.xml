@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_to_string_processor" kind="class" language="Java" prot="public">
+    <compoundname>ru::pliev::labs::lab6::task1_3::ToStringProcessor</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_to_string_processor_1ac3f248d928a59f3ce170955340850777" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static&lt; T &gt; String</type>
+        <definition>static&lt; T &gt; String ru.pliev.labs.lab6.task1_3.ToStringProcessor.toString</definition>
+        <argsstring>(T object)</argsstring>
+        <name>toString</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.ToStringProcessor.toString</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>object</declname>
+        </param>
+        <exceptions> throws Exception </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/ToStringProcessor.java" line="9" column="27" bodyfile="task1_3/ToStringProcessor.java" bodystart="9" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="task1_3/ToStringProcessor.java" line="7" column="7" bodyfile="task1_3/ToStringProcessor.java" bodystart="7" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_to_string_processor_1ac3f248d928a59f3ce170955340850777" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::ToStringProcessor</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

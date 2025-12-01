@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.15.0" xml:lang="en-US">
+  <compound refid="interfaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__2_1_1_default" kind="interface"><name>ru::pliev::labs::lab6::task1_2::Default</name>
+    <member refid="interfaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__2_1_1_default_1abc4c5804d92e5ae068d0e306f052d591" kind="function"><name>value</name></member>
+  </compound>
+  <compound refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__2_1_1_default_annotation_processor" kind="class"><name>ru::pliev::labs::lab6::task1_2::DefaultAnnotationProcessor</name>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__2_1_1_default_annotation_processor_1a4958e721fb32a098c1b927ee74eab0e5" kind="function"><name>printDefaultClasses</name></member>
+  </compound>
+  <compound refid="interfaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_invoke" kind="interface"><name>ru::pliev::labs::lab6::task1_1::Invoke</name>
+  </compound>
+  <compound refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_invoke_annotated_methods" kind="class"><name>ru::pliev::labs::lab6::task1_1::InvokeAnnotatedMethods</name>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_invoke_annotated_methods_1a5ab9b1b4bb7256c3641081c1b2468c31" kind="function"><name>invoke</name></member>
+  </compound>
+  <compound refid="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6" kind="class"><name>ru::pliev::labs::lab6::Lab6</name>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a0bb378acca42bb23f408abfa38d02df5" kind="variable"><name>scanner</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a213ed2b9423310648e174ce8a848e0cb" kind="function"><name>run</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1afc759087c09be6c2400a24b922a3a784" kind="function"><name>runTask1_1</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a5bdcf66b5dacb6076fd2061de93f06f2" kind="function"><name>runTask1_2</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a3325e4a3ea90fdcb6fa13056695e44c0" kind="function"><name>runTask1_3</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6_1a2dfb032d67fbdf624f9e603ed121f5ba" kind="function"><name>runTask1_4</name></member>
+  </compound>
+  <compound refid="enumru_1_1pliev_1_1labs_1_1lab6_1_1task1__2_1_1_mode" kind="enum"><name>ru::pliev::labs::lab6::task1_2::Mode</name>
+    <member refid="enumru_1_1pliev_1_1labs_1_1lab6_1_1task1__2_1_1_mode_1a2177dce2ab007ba94de5599a69e5e9a1" kind="variable"><name>YES</name></member>
+    <member refid="enumru_1_1pliev_1_1labs_1_1lab6_1_1task1__2_1_1_mode_1a7504e497a096f556a2cfe731c21ca585" kind="variable"><name>NO</name></member>
+  </compound>
+  <compound refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person" kind="class"><name>ru::pliev::labs::lab6::task1_3::Person</name>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1aec0a897610a1434b0a355b5d68738aa6" kind="variable"><name>name</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1ab4d5505e8115082c621729cd26792808" kind="variable"><name>age</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a0e6a2176cd64c45bca8e07efc2149a2f" kind="variable"><name>password</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a98ebfbf35ff088b369f1a2d4898b605f" kind="variable"><name>email</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a2e66d67c069bf9fa88dbed3d90eb41fb" kind="variable"><name>salary</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1ad478e6d8a1c3f708a71836565c4ddcd9" kind="function"><name>Person</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a2fb33592cbdbee4e8ad09c49e08b20e9" kind="function"><name>getName</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a14e2f56856faa86de7ed041949f8dfd1" kind="function"><name>setName</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a9c37ecd0a47aeada09dd5cc29642703b" kind="function"><name>getAge</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1aa90c86881ef96523037a10a43ba94340" kind="function"><name>setAge</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1ae110e016625dd413351124de66d659a6" kind="function"><name>getPassword</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a0f1fa79ae9f281308def758474b570d8" kind="function"><name>setPassword</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a6d2d9f0fa6406710e6093a24e8b228fb" kind="function"><name>getEmail</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a1f73de634296e0c5d50f83339933aa84" kind="function"><name>setEmail</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a91f0608b1517bc502c877216ee7e2ce9" kind="function"><name>getSalary</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1afe3c9e60e2e3731ae00007ecebfcdc8b" kind="function"><name>setSalary</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a61e60b2240ccf1bf971262d135e45dc6" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_purring_cat" kind="class"><name>ru::pliev::labs::lab6::task1_1::PurringCat</name>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_purring_cat_1a7f1b6eb30071750c6667faec45ecba97" kind="variable"><name>favouriteFood</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_purring_cat_1a90a40f5b69395db99fe331d4fa01f0f3" kind="function"><name>PurringCat</name></member>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_purring_cat_1ad0e5ef030630df42ed8d5636f8a1eb3b" kind="function"><name>Purring</name></member>
+  </compound>
+  <compound refid="interfaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_to_string" kind="interface"><name>ru::pliev::labs::lab6::task1_3::ToString</name>
+    <member refid="interfaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_to_string_1a4a5493d847f0638c17017461f82a4a55" kind="function"><name>value</name></member>
+  </compound>
+  <compound refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_to_string_processor" kind="class"><name>ru::pliev::labs::lab6::task1_3::ToStringProcessor</name>
+    <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_to_string_processor_1ac3f248d928a59f3ce170955340850777" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="namespacejava_1_1lang" kind="namespace"><name>java::lang</name>
+  </compound>
+  <compound refid="namespacejava_1_1lang_1_1annotation" kind="namespace"><name>java::lang::annotation</name>
+  </compound>
+  <compound refid="namespacejava_1_1util" kind="namespace"><name>java::util</name>
+  </compound>
+  <compound refid="namespaceru" kind="namespace"><name>ru</name>
+  </compound>
+  <compound refid="namespaceru_1_1pliev" kind="namespace"><name>ru::pliev</name>
+  </compound>
+  <compound refid="namespaceru_1_1pliev_1_1labs" kind="namespace"><name>ru::pliev::labs</name>
+  </compound>
+  <compound refid="namespaceru_1_1pliev_1_1labs_1_1lab6" kind="namespace"><name>ru::pliev::labs::lab6</name>
+  </compound>
+  <compound refid="namespaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__1" kind="namespace"><name>ru::pliev::labs::lab6::task1_1</name>
+  </compound>
+  <compound refid="namespaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__2" kind="namespace"><name>ru::pliev::labs::lab6::task1_2</name>
+  </compound>
+  <compound refid="namespaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__3" kind="namespace"><name>ru::pliev::labs::lab6::task1_3</name>
+  </compound>
+  <compound refid="_lab6_8java" kind="file"><name>Lab6.java</name>
+  </compound>
+  <compound refid="_invoke_8java" kind="file"><name>Invoke.java</name>
+  </compound>
+  <compound refid="_invoke_annotated_methods_8java" kind="file"><name>InvokeAnnotatedMethods.java</name>
+  </compound>
+  <compound refid="_purring_cat_8java" kind="file"><name>PurringCat.java</name>
+  </compound>
+  <compound refid="_default_8java" kind="file"><name>Default.java</name>
+  </compound>
+  <compound refid="_default_annotation_processor_8java" kind="file"><name>DefaultAnnotationProcessor.java</name>
+  </compound>
+  <compound refid="_mode_8java" kind="file"><name>Mode.java</name>
+  </compound>
+  <compound refid="_person_8java" kind="file"><name>Person.java</name>
+  </compound>
+  <compound refid="_to_string_8java" kind="file"><name>ToString.java</name>
+  </compound>
+  <compound refid="_to_string_processor_8java" kind="file"><name>ToStringProcessor.java</name>
+  </compound>
+  <compound refid="dir_c54b7eac2a522627661e581ea747beb8" kind="dir"><name>task1_1</name>
+  </compound>
+  <compound refid="dir_ccd77b47d6e6d725011abd426ee1846e" kind="dir"><name>task1_2</name>
+  </compound>
+  <compound refid="dir_2b00a2bec8cb90401bc1f72f260f83df" kind="dir"><name>task1_3</name>
+  </compound>
+</doxygenindex>

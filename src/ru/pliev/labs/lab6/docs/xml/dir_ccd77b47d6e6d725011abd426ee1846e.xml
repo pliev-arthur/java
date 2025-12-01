@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="dir_ccd77b47d6e6d725011abd426ee1846e" kind="dir">
+    <compoundname>task1_2</compoundname>
+    <innerfile refid="_default_8java">Default.java</innerfile>
+    <innerfile refid="_default_annotation_processor_8java">DefaultAnnotationProcessor.java</innerfile>
+    <innerfile refid="_mode_8java">Mode.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="task1_2/"/>
+  </compounddef>
+</doxygen>

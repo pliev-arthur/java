@@ -1,0 +1,40 @@
+\doxysection{ru.\+pliev.\+labs.\+lab6.\+task1\+\_\+1.\+Invoke Interface Reference}
+\hypertarget{interfaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_invoke}{}\label{interfaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_invoke}\index{ru.pliev.labs.lab6.task1\_1.Invoke@{ru.pliev.labs.lab6.task1\_1.Invoke}}
+
+
+\doxysubsection{Detailed Description}
+Аннотация для автоматического вызова методов через Reflection API. 
+
+Аннотация {\ttfamily @\+Invoke} предназначена для пометки методов, которые должны быть автоматически вызваны обработчиком {\ttfamily \doxylink{}{Invoke\+Annotated\+Methods}} во время выполнения программы. 
+
+{\bfseries{Характеристики аннотации\+:}}
+
+
+\begin{DoxyItemize}
+\item Цель применения\+: только МЕТОД 
+\item Доступна во время исполнения программы 
+\item Не имеет свойств 
+\end{DoxyItemize}
+
+{\bfseries{Пример использования\+:}}
+
+
+\begin{DoxyPre}
+{\ttfamily \newlinepublic class ExampleClass \{\newline    @Invoke\newline    public void annotatedMethod() \{\newline        System.out.println("{}Этот метод будет вызван автоматически"{});\newline    \}\newline\}\newline}
+\end{DoxyPre}
+
+
+\begin{DoxySeeAlso}{See also}
+Invoke\+Annotated\+Methods 
+
+java.\+lang.\+reflect.\+Method 
+\end{DoxySeeAlso}
+\begin{DoxyAuthor}{Author}
+Ваше имя 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+Лабораторная работа №6 
+\end{DoxySince}

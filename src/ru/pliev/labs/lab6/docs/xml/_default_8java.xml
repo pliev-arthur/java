@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="_default_8java" kind="file" language="Java">
+    <compoundname>Default.java</compoundname>
+    <includes local="no">java.lang.annotation.*</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>task1_2/Default.java</label>
+        <link refid="_default_8java"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>java.lang.annotation.*</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="interfaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__2_1_1_default" prot="public">ru::pliev::labs::lab6::task1_2::Default</innerclass>
+    <innernamespace refid="namespaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__2">ru::pliev::labs::lab6::task1_2</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="task1_2/Default.java"/>
+  </compounddef>
+</doxygen>

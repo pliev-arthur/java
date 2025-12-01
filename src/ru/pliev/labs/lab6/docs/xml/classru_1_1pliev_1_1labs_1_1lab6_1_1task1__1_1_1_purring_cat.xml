@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_purring_cat" kind="class" language="Java" prot="public">
+    <compoundname>ru::pliev::labs::lab6::task1_1::PurringCat</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Cat</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_purring_cat_1a7f1b6eb30071750c6667faec45ecba97" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ru.pliev.labs.lab6.task1_1.PurringCat.favouriteFood</definition>
+        <argsstring></argsstring>
+        <name>favouriteFood</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_1.PurringCat.favouriteFood</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_1/PurringCat.java" line="10" column="20" bodyfile="task1_1/PurringCat.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_purring_cat_1a90a40f5b69395db99fe331d4fa01f0f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ru.pliev.labs.lab6.task1_1.PurringCat.PurringCat</definition>
+        <argsstring>(String name, String favouriteFood)</argsstring>
+        <name>PurringCat</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_1.PurringCat.PurringCat</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>favouriteFood</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_1/PurringCat.java" line="12" column="12" bodyfile="task1_1/PurringCat.java" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_purring_cat_1ad0e5ef030630df42ed8d5636f8a1eb3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ru.pliev.labs.lab6.task1_1.PurringCat.Purring</definition>
+        <argsstring>()</argsstring>
+        <name>Purring</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_1.PurringCat.Purring</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_1/PurringCat.java" line="17" column="17" bodyfile="task1_1/PurringCat.java" bodystart="17" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="task1_1/PurringCat.java" line="7" column="7" bodyfile="task1_1/PurringCat.java" bodystart="7" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_purring_cat_1a7f1b6eb30071750c6667faec45ecba97" prot="private" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_1::PurringCat</scope><name>favouriteFood</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_purring_cat_1ad0e5ef030630df42ed8d5636f8a1eb3b" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_1::PurringCat</scope><name>Purring</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_purring_cat_1a90a40f5b69395db99fe331d4fa01f0f3" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_1::PurringCat</scope><name>PurringCat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

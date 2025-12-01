@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="namespaceru_1_1pliev_1_1labs_1_1lab6" kind="namespace" language="Java">
+    <compoundname>ru::pliev::labs::lab6</compoundname>
+    <innerclass refid="classru_1_1pliev_1_1labs_1_1lab6_1_1_lab6" prot="public">ru::pliev::labs::lab6::Lab6</innerclass>
+    <innernamespace refid="namespaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__1">ru::pliev::labs::lab6::task1_1</innernamespace>
+    <innernamespace refid="namespaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__2">ru::pliev::labs::lab6::task1_2</innernamespace>
+    <innernamespace refid="namespaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__3">ru::pliev::labs::lab6::task1_3</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Lab6.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

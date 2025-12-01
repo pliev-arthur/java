@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="_mode_8java" kind="file" language="Java">
+    <compoundname>Mode.java</compoundname>
+    <innerclass refid="enumru_1_1pliev_1_1labs_1_1lab6_1_1task1__2_1_1_mode" prot="public">ru::pliev::labs::lab6::task1_2::Mode</innerclass>
+    <innernamespace refid="namespaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__2">ru::pliev::labs::lab6::task1_2</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="task1_2/Mode.java"/>
+  </compounddef>
+</doxygen>

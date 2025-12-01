@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="interfaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_invoke" kind="interface" language="Java" prot="public">
+    <compoundname>ru::pliev::labs::lab6::task1_1::Invoke</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Аннотация для автоматического вызова методов через Reflection API. </para>
+<para>Аннотация <javadoccode>@Invoke</javadoccode> предназначена для пометки методов, которые должны быть автоматически вызваны обработчиком <computeroutput><ref refid="" kindref="compound">InvokeAnnotatedMethods</ref></computeroutput> во время выполнения программы. </para>
+<para><bold>Характеристики аннотации:</bold></para>
+<para><itemizedlist>
+<listitem>
+<para>Цель применения: только МЕТОД </para>
+</listitem>
+<listitem>
+<para>Доступна во время исполнения программы </para>
+</listitem>
+<listitem>
+<para>Не имеет свойств </para>
+</listitem>
+</itemizedlist>
+</para>
+<para><bold>Пример использования:</bold></para>
+<para><preformatted>
+<javadoccode>
+public class ExampleClass {
+    @Invoke
+    public void annotatedMethod() {
+        System.out.println(&quot;Этот метод будет вызван автоматически&quot;);
+    }
+}
+</javadoccode>
+</preformatted></para>
+<para><simplesect kind="see"><para>InvokeAnnotatedMethods </para>
+</simplesect>
+<simplesect kind="see"><para>java.lang.reflect.Method </para>
+</simplesect>
+<simplesect kind="author"><para>Ваше имя </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+<simplesect kind="since"><para>Лабораторная работа №6 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="task1_1/Invoke.java" line="39" column="19" bodyfile="task1_1/Invoke.java" bodystart="39" bodyend="40"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

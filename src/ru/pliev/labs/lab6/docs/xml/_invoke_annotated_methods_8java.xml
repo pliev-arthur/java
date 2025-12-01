@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="_invoke_annotated_methods_8java" kind="file" language="Java">
+    <compoundname>InvokeAnnotatedMethods.java</compoundname>
+    <includes local="no">java.lang.annotation.Annotation</includes>
+    <includes local="no">java.lang.reflect.Method</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>task1_1/InvokeAnnotatedMethods.java</label>
+        <link refid="_invoke_annotated_methods_8java"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>java.lang.annotation.Annotation</label>
+      </node>
+      <node id="3">
+        <label>java.lang.reflect.Method</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__1_1_1_invoke_annotated_methods" prot="public">ru::pliev::labs::lab6::task1_1::InvokeAnnotatedMethods</innerclass>
+    <innernamespace refid="namespaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__1">ru::pliev::labs::lab6::task1_1</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="task1_1/InvokeAnnotatedMethods.java"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="namespaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__2" kind="namespace" language="Java">
+    <compoundname>ru::pliev::labs::lab6::task1_2</compoundname>
+    <innerclass refid="interfaceru_1_1pliev_1_1labs_1_1lab6_1_1task1__2_1_1_default" prot="public">ru::pliev::labs::lab6::task1_2::Default</innerclass>
+    <innerclass refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__2_1_1_default_annotation_processor" prot="public">ru::pliev::labs::lab6::task1_2::DefaultAnnotationProcessor</innerclass>
+    <innerclass refid="enumru_1_1pliev_1_1labs_1_1lab6_1_1task1__2_1_1_mode" prot="public">ru::pliev::labs::lab6::task1_2::Mode</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="task1_2/Default.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

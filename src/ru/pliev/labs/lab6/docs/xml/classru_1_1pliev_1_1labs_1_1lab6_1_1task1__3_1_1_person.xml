@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.15.0" xml:lang="en-US">
+  <compounddef id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person" kind="class" language="Java" prot="public">
+    <compoundname>ru::pliev::labs::lab6::task1_3::Person</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1aec0a897610a1434b0a355b5d68738aa6" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ru.pliev.labs.lab6.task1_3.Person.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="7" column="20" bodyfile="task1_3/Person.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1ab4d5505e8115082c621729cd26792808" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ru.pliev.labs.lab6.task1_3.Person.age</definition>
+        <argsstring></argsstring>
+        <name>age</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.age</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="8" column="17" bodyfile="task1_3/Person.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a0e6a2176cd64c45bca8e07efc2149a2f" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ru.pliev.labs.lab6.task1_3.Person.password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.password</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="11" column="20" bodyfile="task1_3/Person.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a98ebfbf35ff088b369f1a2d4898b605f" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ru.pliev.labs.lab6.task1_3.Person.email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.email</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="13" column="20" bodyfile="task1_3/Person.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a2e66d67c069bf9fa88dbed3d90eb41fb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ru.pliev.labs.lab6.task1_3.Person.salary</definition>
+        <argsstring></argsstring>
+        <name>salary</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.salary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="16" column="20" bodyfile="task1_3/Person.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1ad478e6d8a1c3f708a71836565c4ddcd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ru.pliev.labs.lab6.task1_3.Person.Person</definition>
+        <argsstring>(String name, int age, String password, String email, double salary)</argsstring>
+        <name>Person</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.Person</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>age</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>salary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="18" column="12" bodyfile="task1_3/Person.java" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a2fb33592cbdbee4e8ad09c49e08b20e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ru.pliev.labs.lab6.task1_3.Person.getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.getName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="26" column="19" bodyfile="task1_3/Person.java" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a14e2f56856faa86de7ed041949f8dfd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ru.pliev.labs.lab6.task1_3.Person.setName</definition>
+        <argsstring>(String name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.setName</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="30" column="17" bodyfile="task1_3/Person.java" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a9c37ecd0a47aeada09dd5cc29642703b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ru.pliev.labs.lab6.task1_3.Person.getAge</definition>
+        <argsstring>()</argsstring>
+        <name>getAge</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.getAge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="34" column="16" bodyfile="task1_3/Person.java" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1aa90c86881ef96523037a10a43ba94340" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ru.pliev.labs.lab6.task1_3.Person.setAge</definition>
+        <argsstring>(int age)</argsstring>
+        <name>setAge</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.setAge</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>age</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="38" column="17" bodyfile="task1_3/Person.java" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1ae110e016625dd413351124de66d659a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ru.pliev.labs.lab6.task1_3.Person.getPassword</definition>
+        <argsstring>()</argsstring>
+        <name>getPassword</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.getPassword</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="42" column="19" bodyfile="task1_3/Person.java" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a0f1fa79ae9f281308def758474b570d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ru.pliev.labs.lab6.task1_3.Person.setPassword</definition>
+        <argsstring>(String password)</argsstring>
+        <name>setPassword</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.setPassword</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="46" column="17" bodyfile="task1_3/Person.java" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a6d2d9f0fa6406710e6093a24e8b228fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ru.pliev.labs.lab6.task1_3.Person.getEmail</definition>
+        <argsstring>()</argsstring>
+        <name>getEmail</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.getEmail</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="50" column="19" bodyfile="task1_3/Person.java" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a1f73de634296e0c5d50f83339933aa84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ru.pliev.labs.lab6.task1_3.Person.setEmail</definition>
+        <argsstring>(String email)</argsstring>
+        <name>setEmail</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.setEmail</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="54" column="17" bodyfile="task1_3/Person.java" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a91f0608b1517bc502c877216ee7e2ce9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double ru.pliev.labs.lab6.task1_3.Person.getSalary</definition>
+        <argsstring>()</argsstring>
+        <name>getSalary</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.getSalary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="58" column="19" bodyfile="task1_3/Person.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1afe3c9e60e2e3731ae00007ecebfcdc8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ru.pliev.labs.lab6.task1_3.Person.setSalary</definition>
+        <argsstring>(double salary)</argsstring>
+        <name>setSalary</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.setSalary</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>salary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="62" column="17" bodyfile="task1_3/Person.java" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a61e60b2240ccf1bf971262d135e45dc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ru.pliev.labs.lab6.task1_3.Person.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>ru.pliev.labs.lab6.task1_3.Person.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="task1_3/Person.java" line="67" column="19" bodyfile="task1_3/Person.java" bodystart="67" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="task1_3/Person.java" line="6" column="7" bodyfile="task1_3/Person.java" bodystart="6" bodyend="76"/>
+    <listofallmembers>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1ab4d5505e8115082c621729cd26792808" prot="private" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>age</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a98ebfbf35ff088b369f1a2d4898b605f" prot="private" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>email</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a9c37ecd0a47aeada09dd5cc29642703b" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>getAge</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a6d2d9f0fa6406710e6093a24e8b228fb" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>getEmail</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a2fb33592cbdbee4e8ad09c49e08b20e9" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>getName</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1ae110e016625dd413351124de66d659a6" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>getPassword</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a91f0608b1517bc502c877216ee7e2ce9" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>getSalary</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1aec0a897610a1434b0a355b5d68738aa6" prot="private" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>name</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a0e6a2176cd64c45bca8e07efc2149a2f" prot="private" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>password</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1ad478e6d8a1c3f708a71836565c4ddcd9" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>Person</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a2e66d67c069bf9fa88dbed3d90eb41fb" prot="private" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>salary</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1aa90c86881ef96523037a10a43ba94340" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>setAge</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a1f73de634296e0c5d50f83339933aa84" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>setEmail</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a14e2f56856faa86de7ed041949f8dfd1" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>setName</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a0f1fa79ae9f281308def758474b570d8" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>setPassword</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1afe3c9e60e2e3731ae00007ecebfcdc8b" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>setSalary</name></member>
+      <member refid="classru_1_1pliev_1_1labs_1_1lab6_1_1task1__3_1_1_person_1a61e60b2240ccf1bf971262d135e45dc6" prot="public" virt="non-virtual"><scope>ru::pliev::labs::lab6::task1_3::Person</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
