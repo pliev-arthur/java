@@ -5,7 +5,6 @@ import java.util.Objects;
 public class Fraction implements FractionInterface {
     private int numerator;
     private int denominator;
-    private Double cache = null;
 
     public Fraction(int numerator) {
         this.numerator = numerator;
@@ -34,19 +33,12 @@ public class Fraction implements FractionInterface {
 
     @Override
     public double getDoubleValue() {
-        if (cache == null) {
-            cache = (double) numerator / denominator;
-            return cache;
-        }
-        else {
-            return cache;
-        }
+        return (double) numerator / denominator;
     }
 
     @Override
     public void setNumerator(int numerator) {
         this.numerator = numerator;
-        cache = null;
     }
 
     @Override
@@ -60,7 +52,6 @@ public class Fraction implements FractionInterface {
             return;
         }
         this.denominator = denominator;
-        cache = null;
     }
 
     private int findGCD(int a, int b) {

@@ -5,6 +5,7 @@ import ru.pliev.labs.lab5.cats.Cat;
 import ru.pliev.labs.lab5.cats.MeowCounter;
 import ru.pliev.labs.lab5.cats.Meowable;
 import ru.pliev.labs.lab5.cats.Meowing;
+import ru.pliev.labs.lab5.fraction.CasheFraction;
 import ru.pliev.labs.lab5.fraction.Fraction;
 import ru.pliev.labs.lab5.gasStation.*;
 import ru.pliev.labs.lab5.people.PeopleProcessor;
@@ -59,11 +60,12 @@ public class Lab5 {
 
     public void runTask1_1() {
         Fraction f1 = new Fraction(4, 8);
-        System.out.println(f1.getDoubleValue());
-        f1.setNumerator(2);
-        System.out.println(f1.getDoubleValue());
-        f1.setDenominator(1);
-        System.out.println(f1.getDoubleValue());
+        CasheFraction cf = new CasheFraction(f1);
+        System.out.println(cf.getDoubleValue());
+        cf.setNumerator(2);
+        System.out.println(cf.getDoubleValue());
+        cf.setDenominator(1);
+        System.out.println(cf.getDoubleValue());
     }
 
     public void runTask2_1() {

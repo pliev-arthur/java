@@ -4,9 +4,11 @@ import ru.pliev.labs.lab5.cats.Cat;
 import ru.pliev.labs.lab6.task1_1.Invoke;
 import ru.pliev.labs.lab6.task1_1.InvokeAnnotatedMethods;
 import ru.pliev.labs.lab6.task1_1.PurringCat;
+import ru.pliev.labs.lab6.task1_2.Default;
 import ru.pliev.labs.lab6.task1_2.DefaultAnnotationProcessor;
 import ru.pliev.labs.lab6.task1_3.Person;
 import ru.pliev.labs.lab6.task1_3.ToStringProcessor;
+import ru.pliev.labs.lab6.task1_4.ValidateProcessor;
 
 import java.util.*;
 
@@ -69,6 +71,6 @@ public class Lab6 {
     }
 
     public void runTask1_4() {
-
+        ValidateProcessor.printValidatedThings(Default.class);
     }
 }

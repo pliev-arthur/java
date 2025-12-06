@@ -1,7 +1,5 @@
 package ru.pliev.labs.lab6.task1_3;
 
-import ru.pliev.labs.lab6.task1_2.Mode;
-
 @ToString
 public class Person {
     private String name;
